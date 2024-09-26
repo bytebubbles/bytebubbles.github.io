@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom 404 - Redirecting...</title>
-  <script>
-    // 使用JavaScript重定向到index.html
-    window.location.href = '/';
-  </script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TDesign</title>
+  <!--[if lte IE 9]>
+  <style>
+    #app {
+      display: none;
+    }
+  </style>
+  <![endif]-->
+  <script type="module" crossorigin src="/assets/site.6fe70e23.js"></script>
+  <link rel="stylesheet" href="/assets/site.03813354.css">
 </head>
+
 <body>
-<!-- 这里可以添加一些提示信息，告知用户页面正在重定向 -->
-<p>您访问的页面不存在，正在重定向至首页...</p>
+<!--[if lte IE 9]>
+<h1 style="position: absolute; width: 100%; text-align:center; top: 45%">请使用 IE 10 以及更新版本的浏览器访问，建议使用 <a href="https://www.google.cn/chrome/">Chrome</a></h1>
+<![endif]-->
+
+<td-stats></td-stats>
+<div id="app">
+  <app></app>
+</div>
+
 </body>
 </html>
